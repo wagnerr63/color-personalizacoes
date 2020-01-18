@@ -1,0 +1,155 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Lucida Sans Unicode";
+}
+
+html{
+	background-color:#FFE3A8;
+}
+
+input{
+	background-color:#FEF2CD;
+	border:none;
+}
+
+select{
+	background-color:#FEF2CD;
+	border:none;
+}
+
+/*-----------------------------------------FORMULÁRIO-----------------------------------------------------*/
+/*----------TEXTOS E INPUTS--------------*/
+
+#tituloPrincipal{
+	font-family:Freestyle Script;
+	font-size: 45px;
+	color: black;
+	text-align: center;
+}
+
+#nome{
+	margin-left: 2.5%;
+}
+
+#imagemProd{
+	margin-left:16.5%;
+}
+
+.caixa legend{
+	font-family:"Lucida Sans Unicode";
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+	margin-left:1%;
+}
+
+.caixa label{
+	margin-left: 5%;
+}
+
+.caixa input{
+	margin-left: 1%;
+}
+
+/*--------------------------------------------TABELAS---------------------------------------------*/
+
+table, th, td{
+	border-collapse: collapse;
+	border: 2px solid black;
+	margin-bottom: 1%;
+}
+
+table{
+	margin-top:1%;
+	margin-left: 5%;
+	text-align: center;
+}
+
+th{
+	height: 30px;
+	background-color:black;
+	color:white;
+}
+
+td{
+	height: 40px;
+	background-color:#FFE3A8;
+}
+
+.caixa{
+	border: 2px solid black;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 1%;
+}
+
+#tabelaConsulta{
+	width:45%;
+	border:none;
+	background-color:transparent;
+	margin-left: 3.5%;
+}
+
+#tabelaConsulta th{
+	border:none;
+	background-color:transparent;
+}
+
+#tabelaConsulta td{
+	border:none;
+	background-color:transparent;
+}
+
+#consulta{
+	border:none;
+	background-color:transparent;
+}
+
+#tabelaProduto{
+	border: 1px solid black;
+	width: 90%;
+}
+
+/*-------------------------------------------BOTÕES-------------------------------------------*/
+
+button{
+	background-color: transparent;
+	border: none
+}
+
+#botaoLimpar{
+	margin-left:40%;
+}
+
+.botoes{
+	border: none;
+	background-color: transparent;
+	float: left;
+	margin-left:2%;
+	margin-top:1%;
+	margin-bottom: 1%;
+}
+
+.icones{
+	border: none;
+	background-color: transparent;
+	float: left;
+	margin-left:21%;
+	margin-top:1%;
+}
+
+#botaoConsultar{
+	margin:  0 0 0 1%;
+	padding-top: 10px;
+}
+
+.acoes button{
+	float:none;
+	margin: 0 0 0 0;
+}
+
+#acoes button{
+	float: left;
+	margin-left: 5%;
+}

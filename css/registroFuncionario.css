@@ -1,0 +1,161 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Lucida Sans Unicode";
+}
+
+html{
+	background-color:#FFE3A8;
+}
+
+input{
+	background-color:#FEF2CD;
+	border:none;
+}
+
+select{
+	background-color:#FEF2CD;
+	border:none;
+}
+
+/*-----------------------FORMULÁRIO FUNCIONÁRIO-----------------------------*/
+
+#tituloPrincipal{
+	font-family:Freestyle Script;
+	font-size: 45px;
+	color: black;
+	text-align: center;
+}
+
+.caixa{
+	margin-left: 5%;
+	margin-right:5%;
+	margin-bottom: 1%;
+	border: 2px solid black;
+}
+
+.caixa legend{
+	font-family:"Lucida Sans Unicode";
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+	margin-left: 1%;
+}
+
+.caixa label{
+	margin-left: 5%;
+}
+
+.caixa input{
+	margin-left: 1%;
+}
+
+/*------------------------------ALINHAMENTO DO FORM---------------------*/
+
+#labelSenha{
+	margin-right: 50%;
+}
+
+#senha{
+	margin-left:-50%;
+}
+
+#labelNivel{
+	margin-right: 50.6%;
+}
+
+#nivel{
+	margin-left:-50%;
+}
+
+/*----------------------TABELA DE CONSULTA-------------------*/
+
+#tabelaConsulta{
+	width:45%;
+	border:none;
+	background-color:transparent;
+}
+
+#tabelaConsulta td{
+	border:none;
+	background-color:transparent;
+}
+
+#consulta{
+	border:none;
+	background-color:transparent;
+}
+
+/*----------------------TABELAS GERAIS------------------*/
+
+table, th, td{
+	border-collapse: collapse;
+	border: 2px solid black;
+	margin-bottom: 1%;
+}
+
+table{
+	margin-top:1%;
+	margin-left: 5%;
+	width: 90%;
+	text-align: center;
+}
+
+th{
+	height: 30px;
+	background-color:black;
+	color:white;
+	width: 20%;
+}
+
+td{
+	height: 40px;
+	background-color:#FFE3A8;
+	padding:5px;
+	text-align:center;
+}
+
+/*-------------------------BOTÕES-----------------------*/
+
+.botoesAcao{
+	border: 0px transparent;
+	background-color:transparent;
+	margin-left:20%;
+}
+
+.inputsForm{
+	padding:5px;
+	border-radius:5px;
+	border:1px solid #f0f5f5;
+}
+
+.editafun{
+	margin-left:-19%;
+}
+
+.formAcoes{
+	display:inline;
+}
+
+.botoes{
+	float: left;
+	margin-left:2%;
+	margin-top:4%;
+	background-color: transparent;
+	border: none;
+	size: 100px 100px;
+}
+
+#botaoLimpar{
+	margin-left: 40%;
+}
+
+.espacoBotao{
+	margin-left:10px;
+}
+
+#botaoConsultar{
+	margin:  0 0 0 -3%;
+	padding-top: 10px;
+	float: left;
+}

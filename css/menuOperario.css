@@ -1,0 +1,129 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Lucida Sans Unicode";
+}
+/*-----------------MENU------------------------*/
+header{
+	margin-bottom: 1%;
+}
+#logoHome{
+		width: 50px;
+		height: 66px;
+		margin-top: -19.5%;
+		padding-right: 50px;
+		padding-left: 50px;
+}
+	#home{
+		height: 25px;
+	}
+	#registros{
+		width: 11%;
+		margin-left: 0.1%;
+	}
+	#registros:hover{
+		width: 11%;
+	}
+	#registros:hover{
+		border-bottom: 1px solid black;
+	}
+	#relatorios:hover{
+		border-bottom: 1px solid black;
+	}
+	#ordemDeServico{
+		width: 15%;
+	}
+	#ordemDeServico:hover{
+		width: 15%;
+	}
+	#relatorios{
+		width: 11%;
+	}
+	#relatorios:hover{
+		width: 11%;
+	}
+	#orcamento{
+		width: 9.58%;
+		margin-left: 0.1%;
+	}
+	#orcamento:hover{
+		width: 9.58%;
+	}
+	#bemVindo{
+		color: white;
+		padding-top: 1%;
+		float: right;
+		margin-right: 3.3%;
+	}
+	#logoutIcon{
+		float: right;
+		padding-top: 0.9%;
+		margin-right: -15.5%;
+		width: 2%;
+		height: 2%;
+		margin-left: -2%;
+	}
+	#liLogo:hover {
+		width: 13.19%;
+	}
+	/*----------------------BOTÕES MENU------------------------*/
+	#nav{
+		margin-left: -0.1%;
+		text-align: center;
+		width: 100%;
+		float: left;
+	}
+	#nav ul{
+		font-weight: bold;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+	#nav ul li{
+		float: left;
+		position: relative;
+		display: block;
+	}
+	#nav ul li a{
+		color: white;
+		background-color: #000;
+		text-decoration: none;
+		margin: 0 1px;
+		padding: 16.8px 13px;
+		display: block;
+	}
+	#nav li ul{
+		font-weight: normal;
+		display:none;
+	}
+	#nav ul li a:hover{
+		background-color: #FFE3A8;
+		color: black;
+	}
+	#nav li:hover ul{
+		display: block;
+		position: relative;
+	}
+	#nav li:hover li{
+		float: none;
+		font-size: 16px;
+	}
+	#nav li:hover a{
+		background-color: black;
+		color: white;
+		border-left: 1px solid black;
+		border-right: 1px solid black;
+	}
+	#nav li:hover li a:hover{
+		font-weight: none;
+		background-color: white;
+	}
+	.botoesMenu{
+		width: 100%;
+		height: 59px;
+		float: right;
+		display: flex;
+		border: none;
+		background-color: black;
+	}
+	/*------------------------------------------------------------------------*/

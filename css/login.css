@@ -1,0 +1,121 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Lucida Sans Unicode", Arial;
+}
+
+body{
+	background-image: url("../img/logoComFundo.png");
+	background-size: 100% 140%;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	background: cover;
+	height: 100%;
+	width: 100%;
+}
+
+#home{
+	margin-left: 0.5%;
+	margin-top: 0.5%;
+}
+
+#divPrincipal{
+	padding-top: 8%;
+	margin-left: 32.1%;
+	width: 45%;
+	float: right;
+	position: none;
+}
+
+#logoColor{
+	height: 50%;
+	width: 50%;
+	margin-bottom: %;
+	margin-left: 14.3%;
+}
+
+#formularioLogin{
+	margin-top: -7%;
+	margin-left: 13%;
+}
+
+#tituloFacaSeuLogin{
+	margin-left: 7%;
+	margin-bottom: 10%;
+	margin-top: 44%;
+}
+
+.titulosCamposFacaSeuLogin{
+	font-size: 20px;
+	text-align: left;
+	float: left;
+	margin-left: 1%;
+}
+
+#divEmail{
+	margin-bottom: -5%;
+}
+
+.camposFacaSeuLogin{
+	background-color: white;
+}
+
+#login{
+	margin-left: 30%;
+	margin-bottom: 10%;
+	font-size: 80px;
+	font-family: Freestyle Script;
+}
+
+#camposFormulario{
+	margin-left: -0.5%;
+}
+
+#campoEmail{
+	margin-left: 6%;
+}
+
+#campoSenha{
+	margin-left: 6%;
+	margin-bottom: 0%;
+}
+
+#esqueciMinhaSenha{
+	margin-left: 14%;
+	font-size: 16px;
+}
+
+input{
+	font-size: 20px;
+	height: 30px;
+	width: 250px;
+	padding-left: 2%;
+}
+
+.botoes{
+	background-color: transparent;
+	border: none;
+	margin-top: -1%;
+	margin-left: 1.8%;
+}
+
+.botoes:focus{
+	outline:0;
+}
+
+#botaoLimparCampos{
+	margin-right: 1%;
+	margin-left: 5.4%;
+}
+
+#botaoSenha{
+	border: none;
+	background-color: transparent;
+	text-decoration: underline;
+	color: blue;
+	margin-left: 15%;
+}
+
+#botaoEnviar{
+	margin-right: 45%
+}

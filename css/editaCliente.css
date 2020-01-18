@@ -1,0 +1,156 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Lucida Sans Unicode";
+}
+
+html{
+	background-color:#FFE3A8;
+}
+
+input{
+	background-color:#FEF2CD;
+	border:none;
+}
+
+select{
+	background-color:#FEF2CD;
+	border:none;
+}
+
+/*-----------------------FORMULÁRIO CLIENTE-----------------------------*/
+legend{
+	margin-left: 1%;
+}
+
+.titulo{
+	font-family: Lucida Sans Unicode;
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+	margin-left: 1%;
+}
+
+#tituloPrincipal{
+	font-family:Freestyle Script;
+	font-size: 45px;
+	color: black;
+	text-align: center;
+}
+
+.caixa{
+	border: 2px solid black;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 1%;
+}
+
+.caixa legend{
+	font-family:"Lucida Sans Unicode";
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+}
+
+.caixa label{
+	margin-left: 5%;
+}
+
+.caixa input{
+	margin-left: 1%;
+}
+
+/*------------------------------ALINHAMENTO DO FORM---------------------*/
+#nome{
+	margin-left:1.7%;
+	width:15.2%;
+}
+
+#labelCpf{
+	margin-left: 7%;
+}
+
+#cpfcnpj{
+	margin-left: 0.9%;
+}
+
+#email{
+	margin-left:3.5%;
+	width:17.8%;
+}
+
+#inscricaoEs{
+	width:15.2%;
+}
+
+#labelTelefone{
+	margin-left: 7%;
+}
+
+#telefone{
+	margin-left:1.4%;
+}
+
+#telefone2{
+	width:17.8%;
+}
+
+#rua{
+	margin-left: 3%;
+	width: 16.5%;
+}
+
+#labelBairro{
+	margin-left: 12%;
+}
+
+#bairro{
+	margin-left: 3.2%;
+}
+
+#complemento{
+	width: 15%;
+}
+
+#cidade{
+	width: 16.5%;
+}
+
+#labelEstado{
+	margin-left: 12%;
+}
+
+#estado{
+	margin-left:2.7%;
+}
+
+#labelCep{
+	margin-left: 16.3%;
+}
+
+#cep{
+	margin-left: 8.2%;
+	width: 14.9%
+}
+
+/*-------------------------BOTÕES-----------------------*/
+.botoes{
+	float: left;
+	margin-left:46.4%;
+	margin-top:1%;
+	background-color: transparent;
+	border: none;
+	size: 100px 100px;
+		margin-bottom: 1%;
+}
+
+
+#acoes button{
+	margin-left: 15%;
+}
+
+#botaoConsultar{
+	margin:  0 0 0 -15%;
+	padding-top: 10px;
+	float: left;
+}

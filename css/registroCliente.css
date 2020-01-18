@@ -1,0 +1,210 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Lucida Sans Unicode";
+}
+
+html{
+	background-color:#FFE3A8;
+}
+
+input{
+	background-color:#FEF2CD;
+	border:none;
+}
+
+select{
+	background-color:#FEF2CD;
+	border:none;
+}
+
+/*-----------------------FORMULÁRIO CLIENTE-----------------------------*/
+
+.titulo{
+	font-family: Lucida Sans Unicode;
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+	margin-left: 1%;
+}
+
+#tituloPrincipal{
+	font-family:Freestyle Script;
+	font-size: 45px;
+	color: black;
+	text-align: center;
+}
+
+.caixa{
+	margin-left: 5%;
+	margin-right:5%;
+	border: 2px solid black;
+	margin-bottom: 1%;
+}
+
+.caixa legend{
+	font-family:"Lucida Sans Unicode";
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+	margin-left: 1%;
+}
+
+.caixa label{
+	margin-left: 5%;
+}
+
+.caixa input{
+	margin-left: 1%;
+}
+
+/*------------------------------ALINHAMENTO DO FORM---------------------*/
+
+#nome{
+	margin-left:1.7%;
+	width:15.2%;
+}
+
+#labelCpf{
+	margin-left: 6.8%;
+}
+
+#email{
+	margin-left:3.6%;
+	width:17.7%;
+}
+
+#inscricaoEs{
+	width:15.2%;
+}
+
+#labelTelefone{
+	margin-left: 7%;
+}
+
+#telefone{
+	margin-left:1.35%;
+}
+
+#telefone2{
+	width:17.7%;
+}
+
+#rua{
+	margin-left: 3.1%;
+	width: 16.45%;
+}
+
+#labelBairro{
+	margin-left: 12%;
+}
+
+#bairro{
+	margin-left: 3.2%;
+}
+
+#complemento{
+	width: 14.9%
+}
+
+#cidade{
+	width: 16.5%;
+}
+
+#labelEstado{
+	margin-left: 11%;
+}
+
+#labelEstado{
+	margin-left: 12%;
+}
+
+#estado{
+	margin-left:2.75%;
+}
+
+#labelCep{
+	margin-left: 13.2%;
+}
+
+#cep{
+	margin-left: 8.2%;
+	width: 14.9%
+}
+
+/*----------------------TABELAS-------------------*/
+
+#tabelaConsulta{
+	width:45%;
+	border:none;
+	background-color:transparent;
+	margin-left:3%;
+}
+
+#tabelaConsulta td{
+	border:none;
+	background-color:transparent;
+}
+
+#consulta{
+	border:none;
+	background-color:transparent;
+}
+
+table, th, td{
+	border-collapse: collapse;
+	border: 2px solid black;
+	margin-bottom: 1%;
+}
+
+table{
+	margin-top:1%;
+	margin-left: 5%;
+	width: 90%;
+	text-align: center;
+}
+
+th{
+	height: 30px;
+	background-color:black;
+	color:white;
+}
+
+td{
+	height: 40px;
+	background-color:#FFE3A8;
+}
+
+/*-------------------------BOTÕES-----------------------*/
+
+.botoes{
+	float: left;
+	margin-left:2%;
+	margin-top:1%;
+	background-color: transparent;
+	border: none;
+	size: 100px 100px;
+}
+
+#botao2{
+	margin-left: 40%;
+}
+
+#botaoConsultar{
+	margin:  0 0 0 -15%;
+	padding-top: 10px;
+	float: left;
+}
+
+.botoesTabela{
+	margin-left:7%;
+	margin-top:4%;
+	background-color: transparent;
+	border: none;
+	size: 100px 100px;
+}
+
+#acoes button{
+	float: left;
+	margin-left: 25%;
+}

@@ -1,0 +1,176 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+html, body{
+	width: 100%;
+	height: 100%;
+}
+#cabecalho{
+	width: 100%;
+	height: 8%;
+	background-color: black;
+}
+
+	#logoC{
+		width: 50px;
+		height: 5%;
+		float: left;
+		padding-right: 7%;
+		padding-left: 7%;
+		margin-left: 41%;
+		margin-top:-17px;
+	}
+
+	#logoC:hover{
+		padding-left: 7%;
+		padding-right: 7%;
+		background-color: white;
+	}
+
+
+	#txtMenu{
+		font-family: Georgia;
+		font-size: 20px;
+		padding-top: 20px;
+		float: right;
+		color: white;
+		padding-right: 10px;
+	}
+
+#trabalhos{
+	width: 100%;
+	height: 87%;
+	background-color:  white;
+}
+
+	#descCate{
+		width: 100%;
+		height: 15%;
+	}
+
+		#titulo{
+			font-family: Freestyle Script;
+			font-size: 90px;
+			color: black;
+			margin-right:30px;
+			text-align: center;
+		}
+
+		#descricao{
+			font-family: Lucida Sans Unicode;
+			font-size: 19px;
+			margin-left: 5px;
+			text-align: center;
+			color: black;
+		}
+
+	#tudo{
+		width:100%;
+		height:80%;
+		margin-top:34px;
+	}
+		.espacoProduto{
+			width: 300px;
+			height: 350px;
+			margin-top:35px;
+			margin-left: 30px;
+			display: inline-block;
+		}
+
+	.descricaoP{
+		width: 300px;
+		height: 20px;
+		text-align: center;
+		padding-top: 5px;
+		font-family: Lucida Sans Unicode;
+	}
+
+		.nomeProduto{
+			font-weight: bold;
+			font-size: 18px;
+
+		}
+		.valor{
+			font-size: 17px;
+
+		}
+
+	/*TROCA PRODUTOS*/
+	#produto1{
+		background-image: url("../img/tacaCromada1.jpg");
+		background-image:cover;
+		width: 300px;
+		height: 300px;
+		display: inline-block;
+		border: 2px solid #ff9800;
+		border-radius:50%;
+	}
+		#produto1:hover{
+			background-image: url("../img/tacaCromada2.jpg");
+			width: 300px;
+			height: 300px;
+			border: 2px solid #FFCC80;
+			box-shadow:0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+		}
+	#produto2{
+		background-image: url("../img/tacaColorida1.jpg");
+		background-image:cover;
+		width: 300px;
+		height: 300px;
+		display: inline-block;
+		border: 2px solid #ff9800;
+		border-radius:50%;
+	}
+		#produto2:hover{
+			background-image: url("../img/tacaColorida2.jpg");
+			width: 300px;
+			height: 300px;
+			border: 2px solid #FFCC80;
+			box-shadow:0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19) ;
+		}
+	#produto3{
+		background-image: url("../img/topper1.jpg");
+		background-image:cover;
+		width: 300px;
+		height: 300px;
+		display: inline-block;
+		border: 2px solid #ff9800;
+		border-radius:50%;
+	}
+		#produto3:hover{
+			background-image: url("../img/topper2.jpg");
+			width: 300px;
+			height: 300px;
+			border: 2px solid #FFCC80;
+			box-shadow:0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+		}
+	#produto4{
+		background-image: url("../img/adesivo1.jpg");
+		background-image:cover;
+		width: 300px;
+		height: 300px;
+		display: inline-block;
+		border: 2px solid #ff9800;
+		border-radius:50%;
+	}
+		#produto4:hover{
+			background-image: url("../img/adesivo2.jpg");
+			width: 300px;
+			height: 300px;
+			border: 2px solid #FFCC80;
+			box-shadow:0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+		}
+
+#rodape{
+	width: 100%;
+	height: 5%;
+	background-color:black;
+}
+
+	#copyright{
+		color: white;
+		text-align:center;
+		font-family: Georgia;
+	}

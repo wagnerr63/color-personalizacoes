@@ -1,0 +1,319 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Lucida Sans Unicode";
+}
+
+html{
+	background-color:#FFE3A8;
+}
+
+input{
+	background-color:#FEF2CD;
+	border:none;
+}
+
+select{
+	background-color:#FEF2CD;
+	border:none;
+}
+
+/*-----------------------------------------------------------------------*/
+
+fieldset{
+	border: 2px solid black;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 1%;
+}
+
+h1{
+	font-family: Freestyle Script;
+	font-size: 45px;
+	text-align: center;
+	color: black;
+}
+
+/*----------TEXTOS E INPUTS--------------*/
+
+.titulo{
+	font-family: Lucida Sans Unicode;
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+	margin-left: 1%;
+}
+
+#codigoOrcamento{
+	width:5%;
+}
+
+#cliente{
+	margin-left: 21.5%;
+}
+
+#nomeCli{
+	margin-left: 1%;
+}
+
+#atendente2{
+	margin-left: 14%;
+}
+
+#atendente{
+	width: 12%;
+}
+
+#ruaEntrega{
+	margin-left: 3%;
+}
+
+#bairro{
+	margin-left: 10.5%;
+}
+
+#bairroEntrega{
+	margin-left: 1.8%;
+}
+
+#complemento{
+	margin-left: 5.6%;
+}
+
+#complementoEntrega{
+	width: 12%;
+}
+
+#labelEstado{
+	margin-left: 10.5%;
+}
+
+#estadoEntrega{
+	margin-left:1.2%;
+}
+
+#cep{
+	margin-left: 25%;
+}
+
+#cepEntrega{
+	width: 12%;
+}
+
+#cepEntrega{
+		margin-left: 1.3%;
+}
+
+#numParcelas{
+	margin-left: 1%;
+}
+
+#desconto2{
+	margin-left: 17.8%;
+}
+
+#desconto{
+	width: 10%;
+}
+
+#dataEmi{
+	margin-left:10%;
+}
+
+#dataEmissao{
+	width:12%;
+}
+
+/*--------------TABELAS--------------*/
+
+table, th, td{
+	border-collapse: collapse;
+	border: none;
+	background-color: transparent;
+	margin-bottom: 1%;
+}
+
+table{
+	margin-top:1%;
+	margin-left: 5%;
+	width: 90%;
+	text-align: center;
+}
+
+th{
+	height: 30px;
+	background-color:black;
+	color:black;
+}
+
+td{
+	height: 40px;
+	background-color:#FFE3A8;
+}
+
+
+	.campos{
+		font-family: Lucida Sans Unicode;
+		margin-left: 5%;
+	}
+
+	.camposForm{
+		font-family: Lucida Sans Unicode;
+		margin-left: 1%;
+	}
+
+	.nomeColuna{
+		font-family: Lucida Sans Unicode;
+		font-size: 16px;
+		height: 30px;
+		border-collapse: collapse;
+		margin-bottom: 1%;
+		margin-top:1%;
+	}
+
+	#colunaQuantidade{
+		font-family: Lucida Sans Unicode;
+		font-size: 16px;
+		height: 30px;
+		width: 22%;
+	}
+
+	.colunaBotaoMais{
+		width: 0%;
+		border: none;
+		background-color: transparent;
+	}
+
+	.colunaBotaoMais1{
+		width: 0%;
+		border: none;
+		background-color: transparent;
+	}
+	.colunaBotaoMenos{
+		width: 0%;
+		border: none;
+		background-color: transparent;
+	}
+
+
+	.linhaTabela{
+		font-family: Lucida Sans Unicode;
+		font-size: 14px;
+		height: 40px;
+		border-collapse: collapse;
+		margin-bottom: 1%;
+
+	}
+/*
+	#tabelaProdutos{
+		border: none;
+		background-color: transparent;
+		border: 2px solid black;
+		width: 90%;
+		margin-left: 3%;
+		table-layout: fixed;
+	}
+		#tabelaProdutos th{
+			height: 30px;
+			color:black;
+			border: 2px solid black;
+		}
+		#tabelaProdutos tr{
+			width: 30%;
+		}*/
+
+
+		#valorTotal{
+			margin-left: 25%;
+		}
+
+		#inputValorTotal{
+			width: 10%;
+		}
+
+		#inputValorTotalDesconto{
+			width: 10%;
+		}
+
+	#tabelaProdutos th{
+		border: none;
+		background-color: transparent;
+	}
+
+	#tabelaProdutos td{
+		border: none;
+		background-color: transparent;
+	}
+
+	#tabelaConsulta{
+		width: 45%;
+		border: none;
+		background-color: transparent;
+	}
+		#consultaNome{
+			margin-left:10%;
+		}
+
+	#tabelaConsulta th{
+		border: none;
+		background-color: transparent;
+		background-color:black;
+		color:white;
+	}
+
+	#tabelaConsulta td{
+		border: none;
+		background-color: transparent;
+		background-color:#FFE3A8;
+	}
+
+	#tabelaOrcamentos{
+		border: 1px solid black;
+		width: 90%;
+	}
+
+/*--------------BOTÕES--------------*/
+	#botaoLimpar{
+		margin-left: 40%;
+	}
+
+	#botaoEditar{
+		margin-left: 46%;
+		margin-bottom: 1%;
+	}
+
+	#botaoConsultar{
+		margin:  0 0 0 1%;
+		padding-top: 10px;
+
+	}
+
+	#botaoLimparCampos{
+		margin-left: 45%;
+	}
+
+	#consulta{
+		border: none;
+		background-color: transparent;
+	}
+
+	#acoes button{
+		margin-left: 15%;
+	}
+
+	.botoes{
+		border: none;
+		background-color: transparent;
+		margin-left: 6px;
+		float: left;
+		margin-left:2%;
+		margin-top:1%;
+	}
+
+	.icones{
+		border: none;
+		background-color: transparent;
+		float: left;
+		margin-left:21%;
+		margin-top:1%;
+	}

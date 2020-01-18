@@ -1,0 +1,93 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Lucida Sans Unicode";
+}
+
+html{
+	background-color:#FFE3A8;
+}
+
+input{
+	background-color:#FEF2CD;
+	border:none;
+}
+
+select{
+	background-color:#FEF2CD;
+	border:none;
+}
+
+/*-----------------------------------------FORMULÁRIO-----------------------------------------------------*/
+
+fieldset{
+	border: 2px solid black;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 1%;
+}
+
+/*----------TEXTOS E INPUTS--------------*/
+
+h1{
+	font-family:Freestyle Script;
+	font-size: 45px;
+	color: black;
+	text-align: center;
+}
+
+#titulo{
+	font-family: Lucida Sans Unicode;
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+	margin-left: 1%;
+}
+
+.campos{
+	font-family: Lucida Sans Unicode;
+	margin-left: 5%;
+}
+
+#nomeProd{
+	margin-left: 1.5%;
+}
+
+#precoUni{
+	margin-left:8%;
+}
+
+#produtoCat{
+	margin-left: 11%;
+}
+
+#imagemAtualProd{
+	margin-left:5%;
+}
+
+#imagemP{
+	margin-left: 2%;
+}
+
+#imagemProd{
+	margin-left:11.3%;
+}
+
+/*-------------------------------------------BOTÕES-------------------------------------------*/
+
+#botao{
+	border: none;
+	background-color: transparent;
+	float: left;
+	margin-left:50%;
+	margin-top:1%;
+	margin-bottom: 1%;
+}
+
+.icones{
+	border: none;
+	background-color: transparent;
+	float: left;
+	margin-left:21%;
+	margin-top:1%;
+}
